@@ -1,4 +1,4 @@
-# REAMDE <sup>[1](note1)</sup>
+# REAMDE <sup>[1](#note1)</sup>
 
 This is a repo with source code for https://eiri.ca
 
