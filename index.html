@@ -1,12 +1,288 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-782555-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-782555-2');
+    </script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>TL;DR</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eiri.ca</title>
+    <link href="http://fonts.googleapis.com/css?family=Julius+Sans+One|Muli" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <iframe src="https://githubbadge.appspot.com/eiri?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+    <div class="jumbotron text-center">
+      <div class="blur"></div>
+      <a class="unsplash" href="https://unsplash.com/@johnsalzarulo?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="photo by John Salzarulo">
+        <span>
+          <i class="fa fa-camera-retro" aria-hidden="true"></i>
+        </span>
+        <span>by John Salzarulo</span>
+      </a>
+      <img src="https://secure.gravatar.com/avatar/37ff424a6acf0170bf0c9f52fe9887b0?s=150" class="avatar img-circle">
+      <h1>I am Eric Avdey</h1>
+      <h3>this is my site</h3>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="page-header">Who am I</h2>
+          <p>By day: Developer of distributed databases at IBM, helping to build backbone of cognitive cloud, bringing sudden, but inevitable AI apocalypse a bit closer every day.</p>
+          <p>By night: Coding for fun and learning new languages (<em>Japanese is so cool</em> ). Playing guitar horribly and piano even worse. Writing sci-fi book in a quiet of my closet.</p>
+          <p>Fun facts: I live in a forest. I have five cats, and, by the way, cats <em>are</em> better than unicorns. Once I drove from west coast to east coast in three days.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="page-header">Programming languages I use</h2>
+          <div class="row text-center">
+            <div class="col-md-4">
+              <a class="language" href="https://github.com/search?q=user%3Aeiri+language%3AErlang&type=Repositories">
+                <i class="devicon-erlang-plain colored"></i>
+              </a>
+              <h3>Erlang</h3>
+              <p>for building distributed services</p>
+            </div>
+            <div class="col-md-4">
+              <a class="language" href="https://github.com/search?q=user%3Aeiri+language%3APython&type=Repositories">
+                <i class="devicon-python-plain colored"></i>
+              </a>
+              <h3>Python</h3>
+              <p>for scripting and rapid prototypings</p>
+            </div>
+            <div class="col-md-4">
+              <a class="language" href="https://github.com/search?q=user%3Aeiri+language%3AGo&type=Repositories">
+                <i class="devicon-go-plain" style="color: #78CEDC"></i>
+              </a>
+              <h3>Go</h3>
+              <p>for writing microservices and CLI</p>
+            </div>
+            <!--
+            MID 2018, me·thinks
+            <div class="col-md-3">
+              <a class="language" href="https://github.com/search?q=user%3Aeiri+language%3ASwift&type=Repositories">
+                <i class="devicon-swift-plain colored"></i>
+              </a>
+              <h3>Swift</h3>
+              <p>Desktop and Mobile applications</p>
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="page-header timeline">My professional experience</h2>
+          <ul class="timeline">
+
+          <li>
+            <div class="timeline-badge" style="background-color: #466BB0">
+              <i class="fa fa-database" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">IBM</h4>
+                <p>Advisory Software Developer</p>
+                <p>
+                  <small class="text-muted">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Oct 2014 - Present
+                  </small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p>I joined IBM as a part of Cloudant, managed NoSQL JSON database service. Now I'm a developer at Watson Data Platform, a member of core database team and proud contributor of <a href="http://couchdb.apache.org">Apache CouchDB</a>.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge" style="background-color: #5287C4">
+              <i class="fa fa-university" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">NTT Data</h4>
+                <p>Senior Consultant</p>
+                <p>
+                  <small class="text-muted">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Jan 2011 - Oct 2014
+                  </small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p>My client was a major US financial institution and I was a part of a big infrastructure engineering team creating in-house Platform-as-a-Service solution. I've been a key developer of monitoring part of the project. I designed and built highly available, distributed alerts aggregation service in Erlang, along with on-host and network monitoring agents for it.</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-badge" style="background-color: #E92036">
+              <i class="fa fa-id-card-o" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">Keane</h4>
+                <p>Consultant</p>
+                <p>
+                  <small class="text-muted">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Sep 2007 - Jan 2011
+                  </small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p>I provided operational support for dev team of Internal web portal. I’ve been writing automation scripts in bash and Perl for configuration management, load testing, deployment and monitoring.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge" style="background-color: #4E0801">
+              <i class="fa fa-rocket" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">TwelveBeans</h4>
+                <p>Founder</p>
+                <p>
+                  <small class="text-muted">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Feb 2006 - Sep 2007
+                  </small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p>I’ve launched a start-up, a personal accounting as a service, product I built on Ruby on Rails. Though my start-up didn’t gain traction, I’ve obtained priceless experience of establishing and running a small business.</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-badge" style="background-color: #0E7548">
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">Government of Saskatchewan</h4>
+                <p>Programmer-Analyst</p>
+                <p>
+                  <small class="text-muted">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Feb 2005 - Feb 2006
+                  </small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p>Going old school, I was programming on IBM mainframe, writing ad-hoc reports in Natural for ADABAS. Later I also took a responsibility of providing operational support for PeopleSoft and DB2 system.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge" style="background-color: #DA2A27">
+              <i class="fa fa-desktop" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">TheComputerClinic</h4>
+                <p>Consultant</p>
+                <p>
+                  <small class="text-muted">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Nov 2003 - Feb 2005
+                  </small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p>I helped to implement and deploy a web and mail hosting solution for the company on top of open source CMS and mail management servers. Then, putting a developer hat on, I created and launched a time management system built on LAMP stack for a client operating in construction business.</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-badge" style="background-color: #0F6CB5">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">Kazakhtelecom</h4>
+                <p>Leading Specialist</p>
+                <p>
+                  <small class="text-muted">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    May 2002 - May 2003
+                  </small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p>I was a leading engineer of the company’s Internet search infrastructure team, building a proprietary engine for searching and cataloging services for sites in domain zone .kz. In just one year we created a fully functioning product written in C and Perl running on Oracle database.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge" style="background-color: #1CB1CA">
+              <i class="fa fa-floppy-o" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">TNS-Plus</h4>
+                <p>Leading Engineer</p>
+                <p>
+                  <small class="text-muted">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Jan 1999 - May 2002s
+                  </small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p>I was a part of an infrastructure team that created the company’s Internet platform. We’ve started from scratch and finished with a complete stack of fault-tolerant and monitored Linux servers. In parallel, in web developer's role, I’ve created company’s e-commerce platform written in PHP and Python with PostgreSQL backend.</p>
+              </div>
+            </div>
+          </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="page-header"></h2>
+          <ul class="list-inline text-center">
+            <li><a class="social" href="https://ca.linkedin.com/in/ericavdey"><i class="fa fa-3x fa-linkedin"></i></a></li>
+            <li><a class="social" href="https://github.com/eiri"><i class="fa fa-3x fa-github"></i></a></li>
+            <li><a class="social" href="https://medium.com/@eiri"><i class="fa fa-3x fa-medium"></i></a></li>
+            <li><a class="social" href="https://stackoverflow.com/users/3803758/eric-avdey"><i class="fa fa-3x fa-stack-overflow" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <footer class="footer text-center">
+      <div  style="color: #6495ed; padding-top: 28px">
+        design by me
+      </div>
+    </footer>
   </body>
 </html>
